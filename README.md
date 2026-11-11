@@ -42,6 +42,15 @@ El chat usa **tu suscripción**. SnetForever nunca te pide contraseñas, claves 
 - **Claude Pro o Max**, con [Claude Code](https://claude.com/claude-code) instalado y la sesión iniciada. Es la opción más sencilla.
 - **ChatGPT**, con Codex CLI instalado (`npm install -g @openai/codex`, necesita Node.js) y la sesión iniciada (`codex login`).
 
+¿Y si tengo la cuenta gratis?
+
+| Cuenta gratis | ¿Sirve? |
+|---|---|
+| **ChatGPT gratis** | **Sí.** OpenAI incluye Codex también en el plan gratis. Da poco uso: llegarás antes al límite, y el chat te dirá que esperes un rato. |
+| **Claude gratis** | **No.** El plan gratis de Claude no incluye Claude Code. Hace falta Pro o Max. |
+
+Si no tienes Claude de pago, la forma gratis de usar el chat es Codex con una cuenta de ChatGPT.
+
 Una cuenta de **pago por uso** (Console de Anthropic o una clave de API de OpenAI) **no sirve**, y la app te lo dice.
 
 ### Si te creas la cuenta después de instalar
@@ -73,5 +82,5 @@ El detalle está en `LICENCIAS.txt`, dentro de la instalación.
 
 1. Download **`SnetForever-Instalador-<version>.exe`** from [the latest release](https://github.com/alvarezalain262-create/SnetForever/releases/latest) and run it. If SmartScreen warns you, choose «More info → Run anyway».
 2. The installer installs **both the Windows app and the addon** into your WoW Forever `Interface\AddOns` folder. After that, the app keeps the addon and its data up to date (signed updates, applied when the game is closed).
-3. The AI chat uses your own **Claude Pro/Max** (with Claude Code) or **ChatGPT** (with Codex CLI) subscription. Pay-as-you-go API accounts are not supported.
+3. The AI chat uses your own **Claude Pro/Max** (with Claude Code) or **ChatGPT** (with Codex CLI) account. A **free ChatGPT** account works too (with lower usage limits); the **free Claude** plan does not include Claude Code. Pay-as-you-go API accounts are not supported.
 4. If you sign in after installing, right-click the tray star and choose «Check Claude Code / Codex», or just wait: the app checks every 30 minutes.
